@@ -36,6 +36,7 @@ namespace CarLotSimulator
             FordFocus12.Make = "Ford";
             FordFocus12.Model = "Focus";
             FordFocus12.EngineNoise = "Meeeeww";
+
             FordFocus12.HonkNoise="meep";
             FordFocus12.IsDriveable = true;
             Console.WriteLine($"{FordFocus12.Year} {FordFocus12.Make} {FordFocus12.Model} {FordFocus12.EngineNoise} {FordFocus12.HonkNoise} {FordFocus12.IsDriveable}");
